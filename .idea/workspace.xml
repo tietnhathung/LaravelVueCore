@@ -19,26 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ffcaa90-ffff-47b1-987b-4e043499d38b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/body.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/sidebar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/CreateComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/EditComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/HomeComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/IndexComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="1ffcaa90-ffff-47b1-987b-4e043499d38b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,8 +205,16 @@
       <workItem from="1606489924106" duration="588000" />
       <workItem from="1606490564759" duration="75000" />
       <workItem from="1606576589761" duration="1130000" />
-      <workItem from="1606580071576" duration="3172000" />
+      <workItem from="1606580071576" duration="3317000" />
     </task>
+    <task id="LOCAL-00001" summary="thêm cấu trức component">
+      <created>1606583382252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606583382252</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,23 +231,31 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="thêm cấu trức component" />
+    <option name="LAST_COMMIT_MESSAGE" value="thêm cấu trức component" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606582241454">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606583426233">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606582241454" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606582241454">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606583426233" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606583426233">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606582241454" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606582241454">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606583426233" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606583426232">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606582241454" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606582241454">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606583426232" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606583426233">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606582241454" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606583426233" />
+    <state x="2472" y="240" key="Vcs.Push.Dialog.v2" timestamp="1606583384502">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="240" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606583384502" />
     <state x="2724" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606490010956">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
