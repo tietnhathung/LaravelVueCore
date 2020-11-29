@@ -17,6 +17,7 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Main styles for this application-->
     <link href="{{asset("core/css/style.css")}}" rel="stylesheet">
+    <link href="{{mix("/css/app.css") }}" rel="stylesheet">
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() {

@@ -1,38 +1,51 @@
-import Users from "../../Modules/Core/Resources/assets/js/components/users/index";
-
 require('./bootstrap');
 window.Vue = require('vue');
+
 import VueRouter from 'vue-router';
 import VueAxios from 'vue-axios';
 import axios from 'axios';
+import upperFirst from 'lodash/upperFirst'
+import camelCase from 'lodash/camelCase'
 
 import App from './components/App.vue';
 
-import testComp from './components/test';
-import UserRoute from '../../Modules/Core/Resources/assets/js/app';
+const requireComponent = require.context(
+    './globalcomponents',
+    false,
+    /Base[A-Z]\w+\.(vue|js)$/
+)
 
+requireComponent.keys().forEach(fileName => {
+    const componentConfig = requireComponent(fileName)
+    const componentName = upperFirst(
+        camelCase(
+            fileName
+                .split('/')
+                .pop()
+                .replace(/\.\w+$/, '')
+        )
+    )
+    Vue.component(
+        componentName,
+        componentConfig.default || componentConfig
+    )
+})
+
+let routes = [];
+
+const requireRoute = require.context(
+    '../../Modules/?/Resources/assets/js/route',
+    true,
+    /Route.js/
+)
+
+requireRoute.keys().forEach(fileName => {
+    const routeConfig = requireRoute(fileName)
+    routes =  [...routes,...routeConfig.default];
+})
 
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
-
-const routes = [
-    UserRoute,
-    {
-        path: '/testComp',
-        component: testComp,
-        // children: [
-        //     {
-        //         path: 'profile',
-        //         component: UserProfile
-        //     },
-        //     {
-        //         path: 'posts',
-        //         component: UserPosts
-        //     }
-        // ]
-    }
-];
-console.log(routes)
 
 const router = new VueRouter({ mode: 'history', routes: routes});
 
