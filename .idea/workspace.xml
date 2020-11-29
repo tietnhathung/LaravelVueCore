@@ -169,8 +169,8 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="npm run watch" />
       <command value="php artisan serve" />
+      <command value="npm run watch" />
     </option>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
@@ -206,6 +206,7 @@
       <workItem from="1606490564759" duration="75000" />
       <workItem from="1606576589761" duration="1130000" />
       <workItem from="1606580071576" duration="3317000" />
+      <workItem from="1606650337472" duration="92000" />
     </task>
     <task id="LOCAL-00001" summary="thêm cấu trức component">
       <created>1606583382252</created>
@@ -230,27 +231,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="thêm cấu trức component" />
     <option name="LAST_COMMIT_MESSAGE" value="thêm cấu trức component" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606583426233">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606650430218">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606650430218" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606583426233" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606583426233">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606650430218">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606650430218" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606583426233" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606583426232">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606650430218">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606650430218" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606583426232" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606583426233">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606650430218">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606650430218" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606583426233" />
     <state x="2472" y="240" key="Vcs.Push.Dialog.v2" timestamp="1606583384502">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -260,13 +266,18 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2724" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606490010956" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606650417324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606650417324" />
     <state x="2587" y="253" width="585" height="534" key="find.popup" timestamp="1606577948600">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2587" y="253" width="585" height="534" key="find.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606577948600" />
-    <state x="2536" y="240" width="672" height="677" key="run.anything.popup" timestamp="1606581992186">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1606650359288">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606650359288" />
     <state x="2536" y="240" width="672" height="677" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606581992186" />
   </component>
 </project>
