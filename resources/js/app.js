@@ -1,3 +1,5 @@
+import Users from "../../Modules/Core/Resources/assets/js/components/users/index";
+
 require('./bootstrap');
 window.Vue = require('vue');
 import VueRouter from 'vue-router';
@@ -6,32 +8,31 @@ import axios from 'axios';
 
 import App from './components/App.vue';
 
+import testComp from './components/test';
+import UserRoute from '../../Modules/Core/Resources/assets/js/app';
+
 
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
 
 const routes = [
-    // {
-    //     name: 'home',
-    //     path: '/',
-    //     component: HomeComponent
-    // },
-    // {
-    //     name: 'create',
-    //     path: '/create',
-    //     component: CreateComponent
-    // },
-    // {
-    //     name: 'posts',
-    //     path: '/posts',
-    //     component: IndexComponent
-    // },
-    // {
-    //     name: 'edit',
-    //     path: '/edit/:id',
-    //     component: EditComponent
-    // }
+    UserRoute,
+    {
+        path: '/testComp',
+        component: testComp,
+        // children: [
+        //     {
+        //         path: 'profile',
+        //         component: UserProfile
+        //     },
+        //     {
+        //         path: 'posts',
+        //         component: UserPosts
+        //     }
+        // ]
+    }
 ];
+console.log(routes)
 
 const router = new VueRouter({ mode: 'history', routes: routes});
 
