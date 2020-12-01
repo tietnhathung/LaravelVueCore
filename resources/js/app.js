@@ -7,10 +7,10 @@ import axios from 'axios';
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
 
-import App from './components/App.vue';
+import App from './layouts/App.vue';
 
 const requireComponent = require.context(
-    './globalcomponents',
+    './components',
     false,
     /Base[A-Z]\w+\.(vue|js)$/
 )
@@ -34,9 +34,9 @@ requireComponent.keys().forEach(fileName => {
 let routes = [];
 
 const requireRoute = require.context(
-    '../../Modules/?/Resources/assets/js/route',
+    '../../Modules/?/Resources/assets/vue/router',
     true,
-    /Route.js/
+    /routes.js/
 )
 
 requireRoute.keys().forEach(fileName => {
@@ -44,7 +44,9 @@ requireRoute.keys().forEach(fileName => {
     routes =  [...routes,...routeConfig.default];
 })
 
+
 Vue.use(VueRouter);
+
 Vue.use(VueAxios, axios);
 
 const router = new VueRouter({ mode: 'history', routes: routes});
