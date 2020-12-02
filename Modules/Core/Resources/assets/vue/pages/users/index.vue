@@ -10,7 +10,7 @@
                       Add new
                   </router-link>
               </template>
-              <b-table striped hover :items="items"></b-table>
+              <b-table striped hover :items="users"></b-table>
               <template #footer>
                   <b-pagination v-model="currentPage" :total-rows="rows" :per-page="perPage" first-number ></b-pagination>
               </template>
@@ -31,17 +31,18 @@ export default {
         BPagination,
         BTable
     },
+    mounted () {
+        this.axios.get('http://127.0.0.1:8000/api/user')
+            .then(response => {
+                this.users = response.data;
+            } )
+    },
     data() {
         return {
             rows: 100,
             perPage: 20,
             currentPage: 1,
-            items: [
-                { age: 40, first_name: 'Dickerson', last_name: 'Macdonald' },
-                { age: 21, first_name: 'Larsen', last_name: 'Shaw' },
-                { age: 89, first_name: 'Geneva', last_name: 'Wilson' },
-                { age: 38, first_name: 'Jami', last_name: 'Carney' }
-            ]
+            users: []
         }
     }
 }

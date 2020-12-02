@@ -12,6 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Route::get('{view}',  function () {
+//     return view('app');
+// })->where('view', '(.*)');
 Route::get('/{any}', function () {
     return view('app');
 })->where('any', '.*');
